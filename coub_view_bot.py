@@ -40,6 +40,7 @@ def get_proxy():
     proxies.pop(0)
     print(f"{Fore.CYAN}Using proxy: {raw}", Fore.GREEN)
     return proxy
+
 def main():
     global total_views
     global total_fails
